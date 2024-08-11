@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- TODO 2 provide camera permission -->
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application

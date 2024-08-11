@@ -25,6 +25,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace = "com.example.tflite_object_detection_sample"
+    // TODO 1: set this as follows
     compileSdk = 34
     ndkVersion = flutter.ndkVersion
 
@@ -40,6 +41,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.tflite_object_detection_sample"
+        // TODO 1: set these as follows
         minSdk = 23
         targetSdk = 34
         versionCode = flutterVersionCode.toInteger()
