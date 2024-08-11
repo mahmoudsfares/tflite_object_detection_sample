@@ -51,7 +51,7 @@ class HomeController extends GetxController {
     }
   }
 
-  // TODO 8: initiate tflite with the model and labels file
+  // TODO 8: initiate tflite with model and labels files in assets
   _initTFLite() async {
     await Tflite.loadModel(model: 'assets/model.tflite', labels: 'assets/labels.txt', isAsset: true, numThreads: 1, useGpuDelegate: false);
   }
