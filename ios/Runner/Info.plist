@@ -45,5 +45,8 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<!-- TODO 2: provide camera permission -add it also in AndroidManifest.xml for android -->
+	<key>NSCameraUsageDescription</key>
+    <string>Camera access is needed for object detection</string>
 </dict>
 </plist>

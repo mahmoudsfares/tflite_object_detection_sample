@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tflite_object_detection_sample/camera_view.dart';
+import 'package:tflite_object_detection_sample/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CameraView(),
+      home: const HomePage(),
     );
   }
 }

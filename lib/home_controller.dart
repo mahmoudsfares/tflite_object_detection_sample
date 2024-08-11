@@ -3,7 +3,7 @@ import 'package:flutter_tflite/flutter_tflite.dart';
 import 'package:get/get.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-class ScanController extends GetxController {
+class HomeController extends GetxController {
   late CameraController cameraController;
   final RxBool isCameraInitialized = false.obs;
 

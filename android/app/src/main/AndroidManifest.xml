@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- TODO 2 provide camera permission -->
+    <!-- TODO 2 provide camera permission -add it also in info.plist for iOS -->
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
