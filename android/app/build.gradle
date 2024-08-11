@@ -33,6 +33,11 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 
+    aaptOptions {
+        noCompress 'tflite'
+        noCompress 'lite'
+    }
+
     defaultConfig {
         applicationId = "com.example.tflite_object_detection_sample"
         minSdk = 23
