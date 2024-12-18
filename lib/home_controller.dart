@@ -1,7 +1,7 @@
 import 'package:camera/camera.dart';
-import 'package:flutter_tflite/flutter_tflite.dart';
 import 'package:get/get.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:tflite_v2/tflite_v2.dart';
 
 class HomeController extends GetxController {
   late CameraController cameraController;

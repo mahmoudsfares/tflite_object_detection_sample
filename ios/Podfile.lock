@@ -1,0 +1,42 @@
+PODS:
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - TensorFlowLiteC (2.2.0)
+  - tflite_v2 (1.1.2):
+    - Flutter
+    - TensorFlowLiteC
+
+DEPENDENCIES:
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - Flutter (from `Flutter`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - TensorFlowLiteC (= 2.2.0)
+  - tflite_v2 (from `.symlinks/plugins/tflite_v2/ios`)
+
+SPEC REPOS:
+  trunk:
+    - TensorFlowLiteC
+
+EXTERNAL SOURCES:
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  Flutter:
+    :path: Flutter
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  tflite_v2:
+    :path: ".symlinks/plugins/tflite_v2/ios"
+
+SPEC CHECKSUMS:
+  camera_avfoundation: dd002b0330f4981e1bbcb46ae9b62829237459a4
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  permission_handler_apple: 9878588469a2b0d0fc1e048d9f43605f92e6cec2
+  TensorFlowLiteC: b3ab9e867b0b71052ca102a32a786555b330b02e
+  tflite_v2: 86628672b490301d7b7455b625f8090eedfc6536
+
+PODFILE CHECKSUM: 416be09f7a3f73694d25547dbab3756ecc3da5f9
+
+COCOAPODS: 1.16.2
