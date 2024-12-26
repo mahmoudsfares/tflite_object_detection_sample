@@ -53,7 +53,7 @@ class HomeController extends GetxController {
 
   // TODO 8: initiate tflite with model and labels files in assets
   _initTFLite() async {
-    await Tflite.loadModel(model: 'assets/model.tflite', labels: 'assets/labels.txt', isAsset: true, numThreads: 1, useGpuDelegate: false);
+    await Tflite.loadModel(model: 'assets/yolov8_box_float16.tflite', labels: 'assets/labels2.txt', isAsset: true, numThreads: 1, useGpuDelegate: false);
   }
 
   Future<void> _detectObject(CameraImage image) async {
